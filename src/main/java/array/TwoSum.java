@@ -1,7 +1,19 @@
 package array;
 
+/**
+ * @author Vysakh V N
+ * @since 2024-04-20
+ */
 public class TwoSum {
 	
+	/**
+	 * This method finds the indices of the two numbers in a given array that add up to a specific target value.
+	 * 
+	 * @param nums   The integer array to search.
+	 * @param target  The target sum value to find.
+	 * @return  An integer array of size 2 containing the indices of the two numbers that add up to the target,
+	 *          or null if no such pair exists.
+	 */
 	private int[] twoSum(int[] nums, int target) {        
         int[] result = new int[2];
 
