@@ -2,6 +2,13 @@ package array;
 
 public class FirstMissingPositive {
 	
+	/**
+	 * 
+	 * Find the smallest positive integer missing from a given unsorted array. 
+	 * 
+	 * @param nums Unsorted array of integer.
+	 * @return The smallest positive integer from the array.
+	 */
 	public int firstMissingPositive(int[] nums) {
 		int n = nums.length;
 	    boolean[] present = new boolean[n + 1];
