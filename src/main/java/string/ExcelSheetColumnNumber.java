@@ -36,13 +36,18 @@ public class ExcelSheetColumnNumber {
 		letterMap.put('Z', 26);
 	}
 	
+    /**
+     * This function returns the column number corresponding to the column title as appears in Excel sheet
+     * @param columnTitle
+     * @return columnNumber
+     */
     public int titleToNumber(String columnTitle) {
     	char[] chars = columnTitle.toCharArray();
     	int length = chars.length - 1;
-    	int total = 0;
+    	int colNo = 0;
     	for(int i = 0; i <= length; i++) {
-    		total += letterMap.get(chars[i]) * Math.pow(26, length- i);
+    		colNo += letterMap.get(chars[i]) * Math.pow(26, length- i);
     	}
-    	return total;
+    	return colNo;
     }
 }
