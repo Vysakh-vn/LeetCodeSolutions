@@ -5,6 +5,13 @@ import java.util.Set;
 
 public class ReverseVowelsOfAString {
 
+	/**
+	 *  Given a string 's', this function will return the string with all the vowels in the string 
+	 * reversed, while keeping the consonants in their original order.
+ 	 *
+	 * @param s input string to reverse the vowels.
+	 * @return string with the vowels in reverse order.
+	 */
 	public String reverseVowels(String s) {
 		Set<Character> vowels = new HashSet<>();
 		vowels.add('a');
