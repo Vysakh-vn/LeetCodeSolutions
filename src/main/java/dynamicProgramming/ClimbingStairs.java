@@ -7,7 +7,14 @@ public class ClimbingStairs {
 
 	public Map<Integer,Integer> stepsTable = new HashMap<>();	
 	
-
+	/**
+	 * Climbing Stairs
+	 * 
+	 * Find the number of possible ways to climb N number of stairs.
+	 * 
+	 * @param n Number of stairs
+	 * @return The number of ways to climb the stairs.
+	 */
 	public int climbStairs(int n) {
 		if(n == 1 || n == 0) {
 			return 1;
