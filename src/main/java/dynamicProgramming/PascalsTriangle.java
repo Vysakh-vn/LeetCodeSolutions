@@ -9,6 +9,13 @@ public class PascalsTriangle {
 	
 	Map<Integer, List<Integer>> memory = new HashMap<>();
 	
+	
+	/**
+	 * Creates a Pascal's triangle.
+	 * 
+	 * @param numRows Number of rows in the generated triangle.
+	 * @return
+	 */
 	public List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> list = new ArrayList<>();
 		generateRow(numRows);
