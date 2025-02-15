@@ -2,6 +2,13 @@ package string;
 
 public class ValidAnagram {
 	
+    /**
+     * Function that compares a source and target string to check it they are anagrams.
+     * 
+     * @param s source string
+     * @param t target string to compare
+     * @return
+     */
     public boolean isAnagram(String s, String t) {
         String sortedSource = quickSort(s);
         String sortedTarget = quickSort(t);
