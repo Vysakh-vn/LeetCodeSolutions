@@ -6,6 +6,17 @@ import java.util.Map;
 
 public class MinStepToAnagram {
 	
+	/**
+	 * Calculates the minimum number of steps required to make string 't'
+	 * an anagram of string 's' by replacing characters.
+	 * 
+	 * The method sorts both strings and then computes the difference 
+	 * in characters between the two sorted arrays.
+	 *
+	 * @param s The source string
+	 * @param t The target string to be transformed into an anagram of s
+	 * @return The minimum number of steps (character replacements) needed
+	 */
     public int minSteps(String s, String t) {
         char[] sc = s.toCharArray();
         Arrays.sort(sc);
