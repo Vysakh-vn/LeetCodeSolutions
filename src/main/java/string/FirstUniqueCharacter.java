@@ -2,6 +2,12 @@ package string;
 
 public class FirstUniqueCharacter {
 	
+    /**
+     * FInds and returns the index of first unique character in a string
+     * 
+     * @param s source string to find the first unique character
+     * @return index of unique character, if no unique character is found returns -1
+     */
     public int firstUniqueChar(String s) {
         int[] arr = new int[128];
         char[] c = s.toCharArray();
