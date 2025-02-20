@@ -2,6 +2,12 @@ package string;
 
 public class EqualOccurenceCheck {
 	
+    /**
+     * Function that checks if the source string contains equal occurrence for all the characters
+     * 
+     * @param s string to check the occurrence
+     * @return
+     */
     public boolean areOccurrencesEqual(String s) {
     	int[] arr = new int[26];
     	for(char c : s.toCharArray()) {
