@@ -2,6 +2,12 @@ package array;
 
 public class PlusOne {
 	
+    /**
+     * Function that increment the large integer by one and return the resulting array of digits.
+     * 
+     * @param digits
+     * @return
+     */
     public int[] plusOne(int[] digits) {
         int length = digits.length;
     	int sum = digits[length - 1] + 1;
