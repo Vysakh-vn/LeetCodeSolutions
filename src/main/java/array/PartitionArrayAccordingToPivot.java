@@ -5,6 +5,21 @@ import java.util.List;
 
 public class PartitionArrayAccordingToPivot {
 
+	/**
+	 * Rearranges an array such that elements are partitioned around a pivot value.
+	 * 
+	 * This method partitions the input array into three groups:
+	 * - Elements smaller than the pivot.
+	 * - Elements equal to the pivot.
+	 * - Elements greater than the pivot.
+	 * 
+	 * The final array maintains the relative order of elements within each group.
+	 * The input array `nums` is modified in place and returned.
+	 * 
+	 * @param nums the input array of integers
+	 * @param pivot the pivot value used for partitioning
+	 * @return the modified array with elements partitioned around the pivot
+	 */
     public int[] pivotArray(int[] nums, int pivot) {
         List<Integer> smaller = new ArrayList<>();
         List<Integer> pivotArr = new ArrayList<>();
