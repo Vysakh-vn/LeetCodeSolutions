@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class KeyboardRow {
 
+	/**
+	 * Filters words that can be typed using letters from a single row of a QWERTY keyboard.
+	 *
+	 * @param words An array of words to check.
+	 * @return A new array containing only the words that can be typed using letters 
+	 *         from a single keyboard row.
+	 */
     public String[] findWords(String[] words) {
         int[] keys = initialize();
         int count = 0;
