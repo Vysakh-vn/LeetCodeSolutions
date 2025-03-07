@@ -5,6 +5,13 @@ import java.util.Arrays;
 public class ClosestPrimeNumberInRange {
 
 	
+    /**
+     * Finds the closest prime number pair in the given range.
+     * 
+     * @param left
+     * @param right
+     * @return
+     */
     public int[] closestPrimes(int left, int right) {
         int[] temp = new int[right - left];
         int count = 0;
