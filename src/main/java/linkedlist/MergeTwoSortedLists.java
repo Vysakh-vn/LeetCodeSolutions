@@ -2,6 +2,18 @@ package linkedlist;
 
 public class MergeTwoSortedLists {
 	
+	
+	/**
+	 * Merges two sorted linked lists into a single sorted linked list.
+	 * 
+	 * This function takes two sorted linked lists (list1 and list2) and merges them
+	 * into a new sorted linked list by adjusting the `next` pointers of the nodes.
+	 * The function does not create new nodes but instead reuses the existing nodes.
+	 *
+	 * @param list1 The first sorted linked list.
+	 * @param list2 The second sorted linked list.
+	 * @return The head of the merged sorted linked list.
+	 */
 	public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 		if (list1 == null)
 			return list2;
