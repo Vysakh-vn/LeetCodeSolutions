@@ -17,8 +17,7 @@ public class ValidParantheses {
                     if(r == '[' && c != ']') return false;
             }
         }
-        if(!stack.isEmpty()) return false;
-        return true;
+        return stack.isEmpty();
     }
 
 }
