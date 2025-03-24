@@ -5,6 +5,12 @@ import java.util.List;
 
 public class FindAllNumbersDisappearedInAnArray {
 	
+    /**
+     * Functions find the numbers which are missing from a range of number from 1 to n
+     * 
+     * @param nums
+     * @return
+     */
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> list = new ArrayList<>();
         boolean[] occ = new boolean[nums.length];
