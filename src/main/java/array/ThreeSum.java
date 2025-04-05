@@ -6,6 +6,16 @@ import java.util.List;
 
 public class ThreeSum {
 
+	/**
+	 * Finds all unique triplets in the array which sum up to zero.
+	 *
+	 * This method uses the two-pointer approach on a sorted array to efficiently
+	 * find all combinations of three numbers (a, b, c) such that a + b + c = 0.
+	 * Duplicate triplets are skipped to ensure the result contains only unique triplets.
+	 *
+	 * @param nums The input array of integers.
+	 * @return A list of lists containing all unique triplets that sum to zero.
+	 */
 	public List<List<Integer>> threeSum(int[] nums) {
 		List<List<Integer>> result = new ArrayList<>();
 		Arrays.sort(nums);
