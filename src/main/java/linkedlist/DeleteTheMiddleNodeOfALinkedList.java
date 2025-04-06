@@ -2,6 +2,13 @@ package linkedlist;
 
 public class DeleteTheMiddleNodeOfALinkedList {
 	
+	
+    /**
+     * Function to remove the middle element of a list node.
+     * 
+     * @param head
+     * @return list node after the middle element removed
+     */
     public ListNode deleteMiddle(ListNode head) {
         ListNode current = head;
         ListNode middle = head;
