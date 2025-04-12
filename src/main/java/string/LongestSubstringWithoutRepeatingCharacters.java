@@ -5,6 +5,13 @@ import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 	
+	
+    /**
+     * Function finds the longest substring without repeating characters from a given string.
+     * 
+     * @param s
+     * @return length of longest non repeating character sequence.
+     */
     public int lengthOfLongestSubstring(String s) {
         int j = 0;
         int size = 0;
