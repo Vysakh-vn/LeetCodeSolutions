@@ -5,6 +5,12 @@ import java.util.List;
 
 public class ReverseLinkedList {
 
+    /**
+     * Function to reverse a linked list
+     * 
+     * @param head
+     * @return head of reversed linked list
+     */
     public ListNode reverseList(ListNode head) {
         if(head == null) return null;
         List<ListNode> list = new ArrayList<>();
