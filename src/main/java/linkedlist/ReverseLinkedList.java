@@ -3,7 +3,7 @@ package linkedlist;
 public class ReverseLinkedList {
 
     /**
-     * Function to reverse a linked list
+     * Function to reverse a linked list with O(1) space and O(n) time complexity
      * 
      * @param head
      * @return head of reversed linked list
