@@ -6,6 +6,12 @@ import java.util.List;
 public class PalindromeLinkedList {
 	
 	
+    /**
+     * Function to check if the given linked list is Palindrome.
+     * 
+     * @param head
+     * @return
+     */
     public boolean isPalindrome(ListNode head) {
         if(head == null) return false;
         List<ListNode> list = new ArrayList<>();
