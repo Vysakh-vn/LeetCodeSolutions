@@ -2,6 +2,13 @@ package linkedlist;
 
 public class RemoveNthNodeFromEndOfLIst {
 	
+    /**
+     * Function to remove the nth element from the end of linked list
+     * 
+     * @param head
+     * @param n
+     * @return
+     */
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode fast = head;
         ListNode slow = head;
