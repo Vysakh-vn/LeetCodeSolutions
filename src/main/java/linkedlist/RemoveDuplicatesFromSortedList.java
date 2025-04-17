@@ -2,6 +2,12 @@ package linkedlist;
 
 public class RemoveDuplicatesFromSortedList {
 	
+    /**
+     * Function to remove the duplicates from a sorted linked list
+     * 
+     * @param head
+     * @return
+     */
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null) return null;
         if(head.next == null) return head;
