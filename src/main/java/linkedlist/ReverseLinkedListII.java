@@ -2,6 +2,14 @@ package linkedlist;
 
 public class ReverseLinkedListII {
 	
+    /**
+     * Function to reverse the nodes of a linked list in the range of left and right provided
+     * 
+     * @param head
+     * @param left
+     * @param right
+     * @return
+     */
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if(head == null) return null;
         int length = right - left + 1;
