@@ -2,6 +2,13 @@ package linkedlist;
 
 public class SwapNodesInPairs {
 	
+	
+    /**
+     * Function to swap nodes in pairs
+     * 
+     * @param head
+     * @return
+     */
     public ListNode swapPairs(ListNode head) {
         if(head == null) return null;
         if(head.next == null) return head;
