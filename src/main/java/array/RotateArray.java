@@ -2,6 +2,12 @@ package array;
 
 public class RotateArray {
 	
+    /**
+     * Rotates the array to the right by k steps, where k is non-negative.
+     * 
+     * @param nums
+     * @param k
+     */
     public void rotate(int[] nums, int k) {
         if(k == 0) return;
         int length = nums.length;
