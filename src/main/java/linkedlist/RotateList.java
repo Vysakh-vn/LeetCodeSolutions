@@ -2,6 +2,13 @@ package linkedlist;
 
 public class RotateList {
 	
+    /**
+     * Rotates the linked list to the right by k places.
+     * 
+     * @param head
+     * @param k
+     * @return
+     */
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null) return null;
         if(head.next == null) return head;
