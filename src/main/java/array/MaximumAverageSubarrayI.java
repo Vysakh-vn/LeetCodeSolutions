@@ -2,6 +2,13 @@ package array;
 
 public class MaximumAverageSubarrayI {
 	
+    /**
+     * Finds the max average in k elements for the given array.
+     * 
+     * @param nums
+     * @param k
+     * @return
+     */
     public double findMaxAverage(int[] nums, int k) {
     	double maxAverage = 0;
     	double sum = 0;
