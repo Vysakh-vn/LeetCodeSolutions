@@ -5,6 +5,14 @@ import java.util.List;
 public class MinimumPositiveSumSubarray {
 	
 	
+    /**
+     * Minimum sum of a subarray whose size is between l and r (inclusive) and whose sum is greater than 0.
+     * 
+     * @param nums
+     * @param l
+     * @param r
+     * @return
+     */
     public int minimumSumSubarray(List<Integer> nums, int l, int r) {
     	int minSum = 0;
     	int tempSum = 0;
