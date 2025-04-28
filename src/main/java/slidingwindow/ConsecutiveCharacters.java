@@ -2,6 +2,12 @@ package slidingwindow;
 
 public class ConsecutiveCharacters {
 	
+    /**
+     * Finds the maximum length of a non-empty substring that contains only one unique character.
+     * 
+     * @param s
+     * @return
+     */
     public int maxPower(String s) {
         int maxCount = 1;
         char current = s.charAt(0);
