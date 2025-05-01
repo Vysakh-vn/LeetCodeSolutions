@@ -6,6 +6,13 @@ import java.util.List;
 
 public class FindAllAnagramsInAString {
 	
+    /**
+     * From two strings s and p, returns an array of all the start indices of p's anagrams in s.
+     * 
+     * @param s
+     * @param p
+     * @return
+     */
     public List<Integer> findAnagrams(String s, String p) {
         int[] lookup = new int[26];
         List<Integer> list = new ArrayList<>();
