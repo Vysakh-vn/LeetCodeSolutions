@@ -7,6 +7,12 @@ public class BinaryTreeInOrderTraversal {
 
 	List<Integer> list = new ArrayList<>();
 
+	/**
+	 * Function returns the inorder traversal of the binary tree.
+	 * 
+	 * @param root
+	 * @return
+	 */
 	public List<Integer> inorderTraversal(TreeNode root) {
 		inOrderTraversal(root);
 		return list;
