@@ -2,6 +2,12 @@ package tree;
 
 public class MaximumDepthOfBinaryTree {
 	
+    /**
+     * Function to find the max depth of a binary tree
+     * 
+     * @param root
+     * @return
+     */
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
         return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
