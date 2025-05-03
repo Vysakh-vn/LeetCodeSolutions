@@ -7,6 +7,12 @@ public class BinaryTreePostOrderTraversal {
 	
     List<Integer> list = new LinkedList<>();
 
+    /**
+     * Function returns the post order traversal of the binary tree.
+     * 
+     * @param root
+     * @return
+     */
     public List<Integer> postorderTraversal(TreeNode root) {
         doPostOrderTraversal(root);
         return list;
