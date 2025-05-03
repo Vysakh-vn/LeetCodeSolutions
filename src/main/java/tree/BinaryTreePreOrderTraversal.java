@@ -7,6 +7,12 @@ public class BinaryTreePreOrderTraversal {
 	
     List<Integer> list = new LinkedList<>();
 
+    /**
+     * Function returns the preorder traversal of its binary tree.
+     * 
+     * @param root
+     * @return
+     */
     public List<Integer> preorderTraversal(TreeNode root) {
         doPreorderTraversal(root);
         return list;
