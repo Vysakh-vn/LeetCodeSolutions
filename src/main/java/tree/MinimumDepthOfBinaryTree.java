@@ -5,7 +5,12 @@ import java.util.Queue;
 
 public class MinimumDepthOfBinaryTree {
 	
-    int count = 0;
+    /**
+     * Function to find the minimum depth of a binary tree.
+     * 
+     * @param root
+     * @return
+     */
     public int minDepth(TreeNode root) {
         if(root == null) return 0;
 
