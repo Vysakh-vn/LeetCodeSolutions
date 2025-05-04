@@ -8,6 +8,12 @@ import java.util.Map;
 
 public class NumberOfEquivalentDominoPairs {
 	
+    /**
+     * Functin returns the number of pairs (i, j) for which 0 <= i < j < dominoes.length, and dominoes[i] is equivalent to dominoes[j].
+     * 
+     * @param dominoes
+     * @return
+     */
     public int numEquivDominoPairs(int[][] dominoes) {
         String[] hashArray = new String[dominoes.length];
         Map<String, List<Integer>> map = new HashMap<>();
