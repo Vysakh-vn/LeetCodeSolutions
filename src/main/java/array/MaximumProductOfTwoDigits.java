@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 public class MaximumProductOfTwoDigits {
 	
+    /**
+     * Function finds the maximum product of any two digits in the provided number n
+     * 
+     * @param n
+     * @return
+     */
     public int maxProduct(int n) {
         
         int divisor = 10;
