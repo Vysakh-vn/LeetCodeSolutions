@@ -2,6 +2,12 @@ package math;
 
 public class AddDigits {
 	
+    /**
+     * Repeatedly adds the digits of a number until the result is a single-digit number.
+     * 
+     * @param num
+     * @return
+     */
     public int addDigits(int num) {
         if(num < 10) return num;
         while(true) {
